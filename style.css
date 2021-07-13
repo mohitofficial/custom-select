@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+.select{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.box select {
+    background-color: rgb(146, 146, 255);
+    color: rgb(0, 0, 0);
+    width: 250px;
+    height: 50px;
+    border: 5px dotted rgb(255, 208, 55);
+    decoration: none ;
+    font-size: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    -webkit-appearance: button;
+    outline: none;
+}
